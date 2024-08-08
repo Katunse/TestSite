@@ -1,0 +1,453 @@
+body{
+    background: linear-gradient(99.89deg, #3625AF 0%, #C46BD5 98.82%);
+    margin: 20px;
+    overflow: hidden;
+}
+
+.head{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin: 0px;
+}
+
+.inhead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imj{
+    margin: 0px;
+}
+
+.obr{
+    width: 246px;
+    height: 60px;
+    
+    border-radius: 4px ;
+    opacity: 0px;
+    background: #302594;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 7px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+.dd{
+    color:#5C39BA;
+}
+
+.f{
+    margin: 20px;
+}
+
+.main{
+    margin: 0px;
+}
+
+.geroy{
+    height: 100px;
+}
+
+
+.div{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.div2{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.ggt{
+font-family: Roboto;
+font-size: 55px;
+font-weight: 900;
+line-height: 66px;
+text-align: left;
+color: #ffffff;
+transform: translateX(338px);
+
+}
+
+.hepl{
+font-family: Roboto;
+font-size: 24px;
+font-weight: 400;
+line-height: 28.13px;
+text-align: left;
+color: #ffffff;
+transform: translateX(-48px);
+}
+
+.d{
+    width: 173.03px;
+height: 5px;
+top: 413px;
+left: 398px;
+gap: 0px;
+opacity: 0px;
+background: #BAF1FF;
+transform: translateX(58px);
+}
+
+.fff{
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    width: 745px;
+    height: 664px;
+    top: 141px;
+    left: 1175px;
+    gap: 0px;
+    border-radius: 150px 0px 0px 0px;
+    opacity: 0px;
+    background-image: url("https://s3-alpha-sig.figma.com/img/ad8b/439e/0b7eb342eeac23eee20a7d433d8f33d7?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=nQEkb7RE677j19Hq2JGYds~xbcgI0WVVUI8gRCH~81wN-3FpxwUJ~zZABMyB-2-4dUJHSNUh0GyaXAA~s36Pzi8bak3DmtZfG90utenqPfL0Mpb4ylDDToFLnVb~rJK2~nWCiBLvwlV9PdPaTD8eS6RBroLzBAHj2vHkQwrv6aRdH1fO1Rb8tlxwY7GPQv1xZ9ZegWQQky4q6JlGmpKrwQVvdDIyxxED8S42Rvzeb8SN6ZB4KW1Gz54Ph4-BZH54oHz8bp7TD262eUaHVTIWudIg0LlpMx7r-RCML2K8E0Bw0w5hRM0Vn4SuHDWtXLK1KPm58GNRD2ruDYYlqaFjlA__");
+    margin: 0px;
+}
+
+.stoumost{
+    position: absolute;
+    width: 508px;
+    height: 471px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #ffffff;
+    z-index: 1;
+    display: flex;
+    transform: translateX(930px);
+    bottom: 300px;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: center;
+    animation: showRigh 4s;
+    
+}
+
+.rasch{
+    font-family: Roboto;
+font-size: 25px;
+font-weight: 600;
+line-height: 25px;
+text-align: left;
+margin: 30px;
+}
+
+.S{
+    font-family: Roboto;
+font-size: 12px;
+font-weight: 400;
+line-height: 13px;
+text-align: left;
+transform: translate(-50px);
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 85%;
+    height: 12px;
+    border-radius: 5px;  
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider::-moz-range-thumb {
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    background: #302594;
+
+    cursor: pointer;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%; 
+    background: #302594;
+
+    cursor: pointer;
+}
+
+.tg{
+    display: flex;
+    justify-content: space-around;
+}
+
+.hh{
+    font-family: Arial;
+font-size: 17px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 1px;
+text-align: left;
+
+}
+
+.slider{
+   transform: translateX(30px);
+   
+}
+
+.S2{
+    font-family: Roboto;
+font-size: 12px;
+font-weight: 400;
+line-height: 13px;
+text-align: left;
+transform: translate(30px);
+
+}
+
+.form-group{
+    transform: translateX(30px);
+    font-family: Roboto;
+font-size: 13px;
+font-weight: 500;
+line-height: 15.23px;
+text-align: left;
+display: flex;
+justify-content: space-between;
+margin: 20px;
+}
+
+.ha{
+    margin: 5px;
+}
+
+.htmk{
+    width: 185px;
+height: 60px;
+top: 565px;
+left: 1176px;
+gap: 0px;
+border-radius: 4px;
+opacity: 0px;
+background: #302594;
+display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.hty{
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 700;
+line-height: 16px;
+text-align: center;
+color: #ffffff;
+
+}
+
+.hdf{
+    transform: translateX(150px);
+}
+    
+.footer{
+    background-color: #25283B;
+    width: 100%;
+    height: 220px;
+    position: absolute;
+    right: 0px;
+
+
+
+}
+
+.gerf{
+    height: 215px;
+}
+.pnv{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    transform: translateY(220px);
+}
+
+.pnv2{
+    color: #ffffff;
+    
+}
+
+.ffg{
+    transform: translateX(5px);
+
+}
+
+.pnv2:hover{
+    animation: slidein 0.5s infinite linear;
+}
+
+@keyframes slidein {
+    from {
+     transform: translateY(0px);
+    }
+  
+    to {
+    
+      transform: translateY(30px);
+    }
+  }
+
+  .hegr{
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 16.8px;
+text-align: left;
+
+color: #ffffff;
+  }
+
+.help{
+    position: absolute;
+    right: 1300px;
+    
+}
+
+.perv{
+    display: flex;
+    margin: 0px;
+}
+
+.her{
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 16.8px;
+text-align: left;
+
+color: #ffffff;
+transform: translateX(130px);
+}
+
+
+.fff{
+    
+
+animation: showRight 4s;
+
+}
+
+
+
+@keyframes showRight {
+
+    from {left:100%;}
+    
+    to {right:0;}
+    
+}
+
+@keyframes showLeft {
+
+    from {left:-10%;}
+        
+    to {left:19%;}
+        
+}
+
+@keyframes showRigh {
+
+    from {right:10%;}
+    
+    to {right:72%;}
+    
+}
+
+.help{
+    animation: showLeft 5s;
+}
+
+.ggt{
+    animation: showLet 5s;
+    position: relative;
+}
+
+@keyframes showLet {
+
+    from {left:-100%;}
+    
+    to {left:0;}
+    
+    }
+
+.hepl{
+    animation: showLet 4s;
+    position: relative;
+}
+
+.f{
+    font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+line-height: 19.36px;
+text-align: left;
+
+}
+
+.dropbtn{
+    font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+line-height: 19.36px;
+text-align: left;
+}
+
+141.8.192.126
+
+https:///a1015622.xsph.ru/html//public.html

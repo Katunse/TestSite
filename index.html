@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+    <div class="head">
+    <img class="imj" src="https://s3-alpha-sig.figma.com/img/e23a/6e50/719a3436402259697d02cc6cfeec3d24?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Ee4OKv3sCy96l6bScyAxyC5VqX70DRLae1vztwNuT0ktC1wEZxiowurCpFHZBGFiQR1xk3jK5golLYV0W2GTXQhKIWHuC4tGehvdtpAWm~TrWlWNH0isvZHDAYBlzcqOeUZA-p71EKRuiXMgm6knnwcD2NIojEpDknUvrGXB5a0SoR8nI28FU3e76G8GMgCG-x7f3ipsgaDEVIPQqWKFfYbRwxqD5bLLiZAZrDP9VT~9qjiMds7rsOTG0~wFSqceqprj4VTeYB3UYdsjDRN7MUR5stwGRH9butb5pSSu-rhGlFj4YhRDQR9NS1~XmQvSwASaCSXZgHeg6tdmC6XpHA__" width="163" height="33">
+        <div class="inhead">
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">МЕНЮ</button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a class="dd" href="#">УСЛУГИ</a>
+                  <a class="dd" href="#">СТАТЬИ</a>
+                  <a class="dd" href="#">ВАКАНСИЯ</a>
+                  <a class="dd" href="#">ФРАНШИЗА</a>
+                </div>
+              </div> 
+              <script>
+                
+                function myFunction() {
+                    document.getElementById("myDropdown").classList.toggle("show");
+                }
+                
+              
+                window.onclick = function(event) {
+                  if (!event.target.matches('.dropbtn')) {
+                
+                    var dropdowns = document.getElementsByClassName("dropdown-content");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                      var openDropdown = dropdowns[i];
+                      if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                      }
+                    }
+                  }
+                }
+                </script>
+            <a class="f">ПОРТФОЛИО </a>
+            <a class="f">ЦЕНЫ </a>
+            <a class="f">СХЕМА РАБОТЫ </a>
+            <a class="f">ОТЗЫВЫ </a>
+            <a class="f">КОНТАКТЫ </a>
+            <a class="f">ГАРАНТИЯ </a>
+        </div>
+    <a class="obr">ОБРАТНАЯ СВЯЗЬ</a>    
+    
+    </div>
+    
+    </header>
+    <div class="geroy">
+    <div class="stoumost">
+        <p class="rasch">Рассчитайте<br/>
+             стоимость ремонта</p>
+            <div class="tg">
+             <p class="S">ПЛОЩАДЬ КВАРТИРЫ:</p>
+        <p class="hh"> <span id="demo"></span>м2</p>
+            </div>
+    <input type="range" min="1" max="500" value="50" class="slider" id="myRange">
+    <script>
+        var slider = document.getElementById("myRange");
+        var output = document.getElementById("demo");
+        output.innerHTML = slider.value;
+        
+        slider.oninput = function() {
+          output.innerHTML = this.value;
+        }
+        
+        </script>
+        <div class="yt">
+            <p class="S2">ТИП ЖИЛЬЯ:</p>
+            <div class="form-group">
+                <label>
+                    <input type="radio">
+                    Вторичное жилье
+                    <input type="radio">
+                    Новостройка
+                    <input type="radio">
+                    Офис
+                </label>
+            </div>
+            
+            <p class="S2">КОЛ-ВО КОМНАТ:</p>
+            <div class="form-group">
+                <label>
+                    <input type="radio" >
+                    1
+                    <input type="radio" class="ha">
+                    2
+                    <input type="radio" class="ha">
+                    3+
+                    <input type="radio" class="ha">
+                    Студия
+                </label>
+            </div>
+        </div>
+        <div class="hdf">
+
+            <div class="htmk">
+                <p class="hty">Отправить</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    
+    </div>       
+</div>
+    </div>
+    </div>
+    </div>
+    
+    <main class="main">
+    <div class="div">
+        <h1 class="ggt">Ремонт под ключ от<br/>
+             2900 руб/м2.</h1>
+             <div class="fff">
+                     
+                 </div>
+             
+    </div>
+    <div class="div2">
+        <h1 class="hepl">При заказе ремонта делаем<br/>
+            дизайн-проект в подарок</h1>
+            <a></a>
+        </div>
+        <div class="div2">
+            
+            <div class="d"></div>
+            <a></a>
+            <a></a>
+        </div>
+        <div class="help">
+            <div class="perv">
+                <p class="hegr">Бесплатный выезд<br/>
+                     в день обращения</p>
+            <p class="her">Гарантия на работу<br/>
+                 до 5 лет</p>
+            </div>
+            
+            <p class="hegr">Жесткое соблюдение <br/>
+                сроков</p>
+        </div>
+        <div class="pnv">
+            
+            <p class="pnv2">Scroll</p>
+        </div>
+        <div class="gerf">
+           
+        </div>
+        
+    </main>
+    <footer class="footer2">
+        <div class="footer"></div>
+    </footer>
+</body>
+</html>
